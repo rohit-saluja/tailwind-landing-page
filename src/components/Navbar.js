@@ -1,5 +1,11 @@
 function NavBar() {
-  return <div>navbar</div>;
+  return (
+    <div className='container'>
+      <div className='justify-items between flex'>
+        <img src='logo-dark.png' alt='' />
+      </div>
+    </div>
+  );
 }
 
 export default NavBar;
