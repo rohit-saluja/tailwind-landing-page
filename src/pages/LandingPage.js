@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 function LandingPage() {
   return (
     <div className='scroll-smooth'>
-      <section className="w-full bg-[url('./../public/background-image.png')]">
+      <section className="w-full bg-[url('./../public/background-image.png')] bg-no-repeat">
         <Navbar />
         <Hero />
         <HowItWorks />
