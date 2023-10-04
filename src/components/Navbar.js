@@ -1,6 +1,6 @@
 function NavBar() {
   return (
-    <div className='container mx-auto mb-3'>
+    <div className='container mx-auto mb-5'>
       <div className='flex items-center justify-around py-5'>
         <img src='logo-dark.png' alt='' />
         <div className='flex justify-between gap-7'>
