@@ -6,6 +6,8 @@
     "strings": "on"
   },
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "css": "css",
+    "html": "html"
   }
 }
