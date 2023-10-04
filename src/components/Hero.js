@@ -2,7 +2,7 @@ import { BsFillRocketTakeoffFill } from 'react-icons/bs';
 
 function Hero() {
   return (
-    <div className='container mx-28'>
+    <div className='container mx-28 mb-32'>
       <div className='grid grid-cols-1 lg:grid-cols-2'>
         <div className='pt-48'>
           <div className='mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-300 p-1 text-blue-500'>
