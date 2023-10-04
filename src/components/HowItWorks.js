@@ -1,20 +1,18 @@
 import { AiOutlineBars } from 'react-icons/ai';
 import { VscSymbolColor } from 'react-icons/vsc';
 import { GrStackOverflow } from 'react-icons/gr';
+import HeaderSubheader from './HeaderSubheader';
 
 function HowItWorks() {
   return (
     <div className='container mx-28'>
-      <div className='mx-auto mb-12 max-w-md text-center leading-8'>
-        <h1 className='font-thin uppercase text-slate-950'>
-          how it <span className='font-semibold'>work</span>
-        </h1>
-        <h2 className='text-2xl font-bold'>How dose it work ?</h2>
-        <p className='text-slate-500'>
-          Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque rem
-          aperiam.
-        </p>
-      </div>
+      <HeaderSubheader
+        subHeader='How does it work?'
+        label='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque rem
+        aperiam.'
+      >
+        How it <span className='font-semibold'>works</span>
+      </HeaderSubheader>
       <div className='grid grid-cols-1 lg:grid-cols-3'>
         <div className='flex flex-col items-center justify-center'>
           <span className='flex h-28 w-28 items-center justify-center rounded-full bg-blue-200'>
