@@ -5,7 +5,7 @@ import HeaderSubheader from './HeaderSubheader';
 
 function HowItWorks() {
   return (
-    <div className='container mx-28 bg-white py-24'>
+    <div className='container mx-auto bg-white px-28 py-24'>
       <HeaderSubheader
         subHeader='How does it work?'
         label='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque rem
