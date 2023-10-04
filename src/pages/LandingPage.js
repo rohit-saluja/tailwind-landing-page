@@ -1,6 +1,7 @@
 import Hero from '../components/Hero';
 import HowItWorks from '../components/HowItWorks';
 import Navbar from '../components/Navbar';
+import SmartSolutions from '../components/SmartSolutions';
 
 function LandingPage() {
   return (
@@ -9,6 +10,7 @@ function LandingPage() {
         <Navbar />
         <Hero />
         <HowItWorks />
+        <SmartSolutions />
       </section>
     </div>
   );
