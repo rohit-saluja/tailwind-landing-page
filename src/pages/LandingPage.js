@@ -5,7 +5,7 @@ import SmartSolutions from '../components/SmartSolutions';
 
 function LandingPage() {
   return (
-    <div className='scroll-smooth'>
+    <div className='scroll-smooth text-slate-600'>
       <section className="w-full bg-[url('./../public/background-image.png')] bg-repeat-x">
         <Navbar />
         <Hero />
