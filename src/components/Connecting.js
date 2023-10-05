@@ -1,9 +1,9 @@
-import Feature from './Feature';
+import FeatureTwo from './FeatureTwo';
 
 function Connecting() {
   return (
-    <div className='mx-auto bg-[url("./../public/features-bg.png")] bg-repeat-x px-28 py-20'>
-      <Feature
+    <div className='mx-auto bg-[url("./../public/features-bg.png")] bg-cover bg-no-repeat px-28 py-20'>
+      <FeatureTwo
         header='Discover your destination'
         subHeader='On the other hand, we denounce with righteous indignation so blinded that they cannot.'
         isBgWhite={true}
