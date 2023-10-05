@@ -1,3 +1,4 @@
+import Connecting from '../components/Connecting';
 import Hero from '../components/Hero';
 import HowItWorks from '../components/HowItWorks';
 import Navbar from '../components/Navbar';
@@ -11,6 +12,7 @@ function LandingPage() {
         <Hero />
         <HowItWorks />
         <SmartSolutions />
+        <Connecting />
       </section>
     </div>
   );

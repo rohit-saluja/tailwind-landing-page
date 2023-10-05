@@ -3,9 +3,9 @@ import { AiOutlineLock } from 'react-icons/ai';
 import { HiOutlineSquare3Stack3D } from 'react-icons/hi2';
 import PropTypes from 'prop-types';
 
-function Feature({ header, subHeader, l1, l2, l3 }) {
+function Feature({ header, subHeader, l1, l2, l3, isBgWhite = false }) {
   return (
-    <div className='mx-auto bg-gray-50'>
+    <div className={`mx-auto  ${isBgWhite}?'':bg-gray`}>
       <div className='grid grid-cols-1 lg:grid-cols-2'>
         <img src='features-1.png' alt='' />
         <div className='lg:ml-16 lg:pt-28'>
@@ -43,5 +43,6 @@ Feature.propTypes = {
   l1: PropTypes.any,
   l2: PropTypes.any,
   l3: PropTypes.any,
+  isBgWhite: PropTypes.bool,
 };
 export default Feature;
