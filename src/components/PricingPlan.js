@@ -16,7 +16,13 @@ function PricingPlan() {
           Our <span className='font-semibold'>Plan</span>
         </HeaderSubheader>
       </div>
-      <Radio value={pricing} onChange={setPricing} />
+      <Radio
+        value={pricing}
+        onChange={(value) => {
+          console.log(value);
+          setPricing(value);
+        }}
+      />
     </div>
   );
 }

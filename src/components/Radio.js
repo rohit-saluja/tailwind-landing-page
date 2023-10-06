@@ -5,14 +5,18 @@ function Radio({ value, onChange }) {
     <div className='mx-auto flex max-w-fit rounded-full bg-gradient-to-r from-white to-gray-200 p-2'>
       <div className='flex gap-3'>
         <div
-          className={`p-2 text-white ${value === 'Monthly' ? 'rounded-full bg-blue-500 ' : ''}`}
-          onClick={onChange(value)}
+          className={`cursor-pointer p-2  ${
+            value === 'Monthly' ? 'rounded-full bg-blue-500 text-white' : 'text-slate-500'
+          }`}
+          onClick={() => onChange('Monthly')}
         >
           Monthly
         </div>
         <div
-          className={`p-2 text-slate-700 ${value === 'Yearly' ? 'text-slate-500' : ''}`}
-          onClick={onChange(value)}
+          className={`cursor-pointer p-2  ${
+            value === 'Yearly' ? 'rounded-full bg-blue-500 text-white' : 'text-slate-500'
+          }`}
+          onClick={() => onChange('Yearly')}
         >
           Yearly
         </div>
