@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import HeaderSubheader from './HeaderSubheader';
 import Radio from './Radio';
+import PricingItem from './PricingItem';
 
 function PricingPlan() {
   const [pricing, setPricing] = useState('Monthly');
@@ -22,6 +23,11 @@ function PricingPlan() {
           setPricing(value);
         }}
       />
+      <div className='pt-24'>
+        <div className='grid grid-cols-1 gap-3 lg:grid-cols-3'>
+          <PricingItem />
+        </div>
+      </div>
     </div>
   );
 }
