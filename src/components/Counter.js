@@ -5,7 +5,7 @@ import { FaUserFriends } from 'react-icons/fa';
 import CounterItem from './CounterItem';
 function Counter() {
   return (
-    <div className="relative mx-auto bg-[url('./../public/counter-bg.jpg')] bg-cover bg-fixed bg-center bg-no-repeat py-28">
+    <div className="relative mx-auto bg-[url('./../public/counter-bg.jpg')] bg-cover bg-fixed bg-top  bg-no-repeat py-28">
       <div className='absolute inset-0 h-full w-full bg-gray-900/50'></div>
       <div className='container mx-auto grid grid-cols-1 gap-4 px-28 sm:grid-cols-2 lg:grid-cols-4'>
         <CounterItem
