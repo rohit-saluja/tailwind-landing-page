@@ -1,5 +1,6 @@
 import Connecting from '../components/Connecting';
 import Counter from '../components/Counter';
+import Faq from '../components/Faq';
 import Hero from '../components/Hero';
 import HowItWorks from '../components/HowItWorks';
 import Navbar from '../components/Navbar';
@@ -19,6 +20,7 @@ function LandingPage() {
         <Counter />
         <Testimonial />
         <PricingPlan />
+        <Faq />
       </section>
     </div>
   );
