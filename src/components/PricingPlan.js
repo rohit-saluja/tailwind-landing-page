@@ -19,7 +19,6 @@ function PricingPlan() {
       <Radio
         value={pricing}
         onChange={(value) => {
-          console.log(value);
           setPricing(value);
         }}
       />

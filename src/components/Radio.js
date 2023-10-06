@@ -5,8 +5,10 @@ function Radio({ value, onChange }) {
     <div className='mx-auto flex max-w-fit rounded-full bg-gradient-to-r from-white to-gray-200 p-2'>
       <div className='flex gap-3'>
         <div
-          className={`cursor-pointer p-2  ${
-            value === 'Monthly' ? 'rounded-full bg-blue-500 text-white' : 'text-slate-500'
+          className={`cursor-pointer p-2   ${
+            value === 'Monthly'
+              ? 'delay-50 rounded-full bg-blue-500 text-white transition ease-in-out'
+              : 'text-slate-500'
           }`}
           onClick={() => onChange('Monthly')}
         >
@@ -14,7 +16,9 @@ function Radio({ value, onChange }) {
         </div>
         <div
           className={`cursor-pointer p-2  ${
-            value === 'Yearly' ? 'rounded-full bg-blue-500 text-white' : 'text-slate-500'
+            value === 'Yearly'
+              ? 'delay-50 rounded-full bg-blue-500 text-white transition ease-in-out'
+              : 'text-slate-500'
           }`}
           onClick={() => onChange('Yearly')}
         >
