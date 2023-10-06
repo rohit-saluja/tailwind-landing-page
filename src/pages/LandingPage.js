@@ -3,6 +3,7 @@ import Counter from '../components/Counter';
 import Hero from '../components/Hero';
 import HowItWorks from '../components/HowItWorks';
 import Navbar from '../components/Navbar';
+import PricingPlan from '../components/PricingPlan';
 import SmartSolutions from '../components/SmartSolutions';
 import Testimonial from '../components/Testimonial';
 
@@ -17,6 +18,7 @@ function LandingPage() {
         <Connecting />
         <Counter />
         <Testimonial />
+        <PricingPlan />
       </section>
     </div>
   );
