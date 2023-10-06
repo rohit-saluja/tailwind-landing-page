@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import HeaderSubheader from './HeaderSubheader';
 import Radio from './Radio';
 
 function PricingPlan() {
+  const [pricing, setPricing] = useState('Monthly');
+  console.log(pricing);
   return (
     <div className='container mx-auto bg-white px-28 py-28'>
       <div className='mb-10'>
@@ -13,7 +16,7 @@ function PricingPlan() {
           Our <span className='font-semibold'>Plan</span>
         </HeaderSubheader>
       </div>
-      <Radio />
+      <Radio value={pricing} onChange={setPricing} />
     </div>
   );
 }

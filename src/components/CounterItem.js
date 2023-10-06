@@ -16,7 +16,7 @@ function CounterItem({ component, counter, label }) {
 
 CounterItem.propTypes = {
   component: PropTypes.element,
-  counter: PropTypes.number,
+  counter: PropTypes.string,
   label: PropTypes.string,
 };
 export default CounterItem;
