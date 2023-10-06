@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import HowItWorks from '../components/HowItWorks';
 import Navbar from '../components/Navbar';
 import SmartSolutions from '../components/SmartSolutions';
+import Testimonial from '../components/Testimonial';
 
 function LandingPage() {
   return (
@@ -15,6 +16,7 @@ function LandingPage() {
         <SmartSolutions />
         <Connecting />
         <Counter />
+        <Testimonial />
       </section>
     </div>
   );
